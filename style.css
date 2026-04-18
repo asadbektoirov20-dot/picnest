@@ -128,3 +128,36 @@ main img{
     margin-left: 40px;
   }
 }
+@media (min-width: 600px) {
+  input{
+    width: 550px;
+    height: 40px;
+    margin-left: 100px;
+  }
+  .item img{
+  width: 400px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+   .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: white;
+    bottom: 0;
+    align-items: center;
+    gap: 230px;
+    
+  }
+  .navbar img{
+    width: 35px;
+    height: 35px;
+  }
+  .as1{
+    margin-left: 40px;
+  }
+}
