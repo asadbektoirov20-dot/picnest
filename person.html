@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="styles/profile.css">
+</head>
+<body>
+
+ <div id="formBox">
+  <input type="text" id="name" placeholder="Ismingni yoz">
+  <input type="text" id="username" placeholder="Username yoz">
+  <button onclick="saveProfile()">Saqlash</button>
+</div>
+  
+<div class="profile">
+    <h2 id="showName"></h2>
+    <p id="showUsername"></p>
+  <button onclick="editProfile()">Edit Profile</button>
+  </div>
+  
+   <div class="navbar">
+    <div class="as1"><img src="Rasm/2.png" onclick="openHome()" ></div>
+    <div class="as"><img src="Rasm/search.png" onclick="openPage()" ></div>
+    <div class="as"><img src="Rasm/6.png" onclick="openBell()" ></div>
+    <div class="as"><img src="Rasm/user.png" onclick="openUser()" ></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

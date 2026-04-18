@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Sms</title>
+  <style>
+   .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: white;
+    bottom: 0;
+    align-items: center;
+    gap: 90px;
+    
+  }
+  .navbar img{
+    width: 20px;
+    height: 20px;
+  }
+  .as1{
+    margin-left: 40px;
+  }
+  
+h1{
+  font-size: 20px;
+  text-align: center;
+}
+  @media (min-width: 600px) {
+   .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: white;
+    bottom: 0;
+    align-items: center;
+    gap: 230px;
+    
+  }
+  .navbar img{
+    width: 35px;
+    height: 35px;
+  }
+  .as1{
+    margin-left: 40px;
+  }  
+  }
+  </style>
+</head>
+<body>
+  <h1>
+   Hozirda buyer ta'mirlanmoqda...
+  </h1>
+  
+   <div class="navbar">
+    <div class="as1"><img src="Rasm/2.png" onclick="openHome()" ></div>
+    <div class="as"><img src="Rasm/search.png" onclick="openPage()" ></div>
+    <div class="as"><img src="Rasm/6.png" onclick="openBell()" ></div>
+    <div class="as"><img src="Rasm/user.png" onclick="openUser()" ></div>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
